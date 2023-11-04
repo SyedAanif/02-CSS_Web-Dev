@@ -1,0 +1,24 @@
+/* Group Selector */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Parent > Child Selector (Only one level)*/
+.box > p{
+    color: firebrick;
+}
+
+/* Descendant Selector(any level) */
+.box li{
+    color: blue;
+}
+
+/* Chaining selectors for being very specific(like element id class) */
+li.done{
+    color: seagreen;
+}
+
+/* hybrid selector(any combination from above) */
+ul p.done{
+    font-size: 0.5rem;
+}
